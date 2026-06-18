@@ -131,9 +131,10 @@ The analysis, ETL scripts, SQL queries, notebooks, and dashboard files are provi
 
 ---
 
-## Dashboard
 
-(Add dashboard screenshots here)
+## Power BI Dashboard
+
+![Dashboard](dashboard.png)
 
 ---
 
