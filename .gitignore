@@ -1,0 +1,5 @@
+data/*.csv
+inventory.db
+.ipynb_checkpoints/
+__pycache__/
+*.log

@@ -1,0 +1,30 @@
+2026-06-05 13:14:06,726 - INFO - Creating Vendor Summary Table...
+2026-06-05 13:17:26,317 - INFO - Summary table created with 10692 rows and 14 columns
+2026-06-05 13:17:26,375 - DEBUG - 
+   VendorNumber                   VendorName  Brand              Description  PurchasePrice  ActualPrice Volume  TotalPurchaseQuantity  TotalPurchaseDollars  TotalSalesQuantity  TotalSalesDollars  TotalSalesPrice  TotalExciseTax  FreightCost
+0          1128  BROWN-FORMAN CORP             1233  Jack Daniels No 7 Black          26.27        36.99   1750                 145080            3811251.60            142049.0         5101919.51        672819.31       260999.20     68601.68
+1          4425        MARTIGNETTI COMPANIES   3405    Tito's Handmade Vodka          23.19        28.99   1750                 164038            3804041.22            160247.0         4819073.49        561512.37       294438.66    144929.24
+2         17035  PERNOD RICARD USA             8068         Absolut 80 Proof          18.24        24.99   1750                 187407            3418303.68            187140.0         4538120.60        461140.15       343854.07    123780.22
+3          3960  DIAGEO NORTH AMERICA INC      4261   Capt Morgan Spiced Rum          16.17        22.99   1750                 201682            3261197.94            200412.0         4475972.88        420050.01       368242.80    257032.07
+4          3960  DIAGEO NORTH AMERICA INC      3545          Ketel One Vodka          21.89        29.99   1750                 138109            3023206.01            135838.0         4223107.62        545778.28       249587.83    257032.07
+2026-06-05 13:17:26,376 - INFO - Cleaning Data...
+2026-06-05 13:17:26,442 - DEBUG - 
+   VendorNumber                VendorName  Brand              Description  PurchasePrice  ActualPrice  Volume  TotalPurchaseQuantity  TotalPurchaseDollars  TotalSalesQuantity  TotalSalesDollars  TotalSalesPrice  TotalExciseTax  FreightCost  GrossProfit  ProfitMargin  SalesToPurchaseRatio  StockTurnover
+0          1128         BROWN-FORMAN CORP   1233  Jack Daniels No 7 Black          26.27        36.99  1750.0                 145080            3811251.60            142049.0         5101919.51        672819.31       260999.20     68601.68   1290667.91     25.297693              1.338647       0.979108
+1          4425     MARTIGNETTI COMPANIES   3405    Tito's Handmade Vodka          23.19        28.99  1750.0                 164038            3804041.22            160247.0         4819073.49        561512.37       294438.66    144929.24   1015032.27     21.062810              1.266830       0.976890
+2         17035         PERNOD RICARD USA   8068         Absolut 80 Proof          18.24        24.99  1750.0                 187407            3418303.68            187140.0         4538120.60        461140.15       343854.07    123780.22   1119816.92     24.675786              1.327594       0.998575
+3          3960  DIAGEO NORTH AMERICA INC   4261   Capt Morgan Spiced Rum          16.17        22.99  1750.0                 201682            3261197.94            200412.0         4475972.88        420050.01       368242.80    257032.07   1214774.94     27.139908              1.372493       0.993703
+4          3960  DIAGEO NORTH AMERICA INC   3545          Ketel One Vodka          21.89        29.99  1750.0                 138109            3023206.01            135838.0         4223107.62        545778.28       249587.83    257032.07   1199901.61     28.412764              1.396897       0.983556
+2026-06-05 13:17:26,442 - INFO - Loading vendor_sales_summary table...
+2026-06-05 13:17:26,699 - INFO - vendor_sales_summary loaded successfully.
+2026-06-05 13:17:26,708 - INFO - Database connection closed.
+2026-06-05 14:52:16,038 - ERROR - No such comm target registered: jupyter.widget.control
+2026-06-05 14:52:16,150 - DEBUG - Using selector: SelectSelector
+2026-06-05 14:52:16,209 - WARNING - No such comm: aa434fb3-61e3-4416-9319-fbf2710edc32
+2026-06-05 14:52:16,217 - DEBUG - Current comms: []
+2026-06-05 19:51:29,353 - ERROR - No such comm target registered: jupyter.widget.control
+2026-06-05 19:51:29,449 - WARNING - No such comm: 29362382-f330-4012-bbd1-798ede07e754
+2026-06-05 19:51:29,451 - DEBUG - Current comms: []
+2026-06-05 22:29:37,804 - ERROR - No such comm target registered: jupyter.widget.control
+2026-06-05 22:29:38,056 - WARNING - No such comm: 15e08d79-ed86-4afc-b44c-3e9d2e532be2
+2026-06-05 22:29:38,058 - DEBUG - Current comms: []
